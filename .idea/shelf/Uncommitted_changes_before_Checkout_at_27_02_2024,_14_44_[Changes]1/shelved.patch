@@ -1,0 +1,16 @@
+Index: .idea/sql_eva.iml
+===================================================================
+diff --git a/.idea/sql_eva.iml b/.idea/sql_eva.iml
+new file mode 100644
+--- /dev/null	
++++ b/.idea/sql_eva.iml	
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="DBE_MODULE" version="4">
++  <component name="NewModuleRootManager">
++    <content url="file://$MODULE_DIR$" />
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
