@@ -4,24 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5429787-383c-41e8-bea9-ff7734cf32e6" name="Changes" comment="test3">
-      <change afterPath="$PROJECT_DIR$/Cinema/Billet.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cinema/Client.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cinema/Film.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cinema/Salle.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cinema/Séance.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cinema/creneaux_semaine.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cinema/creneaux_weekend.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cinema/sessions_plan_week.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cinema/sessions_plan_weekend.sql" afterDir="false" />
+    <list default="true" id="c5429787-383c-41e8-bea9-ff7734cf32e6" name="Changes" comment="export db">
+      <change afterPath="$PROJECT_DIR$/shema.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/8b2d10ea-1e10-493c-a85b-0afd4a23d7f2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8b2d10ea-1e10-493c-a85b-0afd4a23d7f2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_02_2024,_14_40_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_02_2024,_14_44_[Changes]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_02_2024__14_40__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_02_2024__14_44__Changes_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8b2d10ea-1e10-493c-a85b-0afd4a23d7f2/storage_v2/_src_/schema/Cinema.Ed9PeA.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/@localhost.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cinema/Billet.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cinema/Client.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cinema/Film.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cinema/Salle.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cinema/Séance.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cinema/creneaux_semaine.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cinema/creneaux_weekend.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cinema/sessions_plan_week.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cinema/sessions_plan_weekend.sql" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,38 +50,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenDatabaseViewOnStart": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/marvinhoguet",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "database.data.views",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenDatabaseViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/marvinhoguet&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;database.data.views&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="shema.sql" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/shema.sql" />
+      <script-mode>FILE</script-mode>
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-985749b364ce-JavaScript-WS-233.14475.40" />
+        <option value="bundled-js-predefined-1d06a55b98c1-985749b364ce-JavaScript-WS-233.14808.24" />
       </set>
     </attachedChunks>
   </component>
@@ -95,8 +100,22 @@
       <option name="presentableId" value="Default" />
       <updated>1709822781038</updated>
       <workItem from="1709822784614" duration="2000" />
-      <workItem from="1710748531339" duration="420000" />
+      <workItem from="1710748531339" duration="747000" />
+      <workItem from="1710752104564" duration="1265000" />
+      <workItem from="1710766978949" duration="7000" />
+      <workItem from="1710836429318" duration="427000" />
+      <workItem from="1710844164169" duration="88000" />
+      <workItem from="1710922034237" duration="684000" />
     </task>
+    <task id="LOCAL-00001" summary="export db">
+      <option name="closed" value="true" />
+      <created>1710749337368</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710749337368</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +136,7 @@
     <MESSAGE value="test" />
     <MESSAGE value="test2" />
     <MESSAGE value="test3" />
-    <option name="LAST_COMMIT_MESSAGE" value="test3" />
+    <MESSAGE value="export db" />
+    <option name="LAST_COMMIT_MESSAGE" value="export db" />
   </component>
 </project>
