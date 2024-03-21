@@ -4,23 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5429787-383c-41e8-bea9-ff7734cf32e6" name="Changes" comment="export db">
-      <change afterPath="$PROJECT_DIR$/shema.sql" afterDir="false" />
+    <list default="true" id="c5429787-383c-41e8-bea9-ff7734cf32e6" name="Changes" comment="ajout de plusieurs tables">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8b2d10ea-1e10-493c-a85b-0afd4a23d7f2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8b2d10ea-1e10-493c-a85b-0afd4a23d7f2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8b2d10ea-1e10-493c-a85b-0afd4a23d7f2/storage_v2/_src_/schema/Cinema.Ed9PeA.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/@localhost.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cinema/Billet.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cinema/Client.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cinema/Film.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cinema/Salle.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cinema/Séance.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cinema/creneaux_semaine.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cinema/creneaux_weekend.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cinema/sessions_plan_week.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cinema/sessions_plan_weekend.sql" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,6 +92,7 @@
       <workItem from="1710836429318" duration="427000" />
       <workItem from="1710844164169" duration="88000" />
       <workItem from="1710922034237" duration="684000" />
+      <workItem from="1711013163956" duration="621000" />
     </task>
     <task id="LOCAL-00001" summary="export db">
       <option name="closed" value="true" />
@@ -115,7 +102,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710749337368</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ajout de plusieurs tables">
+      <option name="closed" value="true" />
+      <created>1710940939921</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710940939921</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +132,7 @@
     <MESSAGE value="test2" />
     <MESSAGE value="test3" />
     <MESSAGE value="export db" />
-    <option name="LAST_COMMIT_MESSAGE" value="export db" />
+    <MESSAGE value="ajout de plusieurs tables" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout de plusieurs tables" />
   </component>
 </project>
