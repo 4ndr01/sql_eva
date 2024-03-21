@@ -1,4 +1,4 @@
-# Table des matières
+# Sommaire
 
 1. [Installation et Utilisation](#installation)
 2. [Conception](#conception)
@@ -28,35 +28,35 @@ cd eval-sql
 ## 3. ouvrez le terminal et assurez vous d'etre bien dans le bon repertoire pour lancer la commande suivante :
 
 ```bash
-sudo mysql -u "nom de votre utilisateur" -p
+sudo mysql -u "nom de votre utilisateur" -p Bus < queries.sql
 ```
 
 ## 4. Créez la database et allez dessus :
 
 ```bash
-CREATE DATABASE evalsql;
+CREATE DATABASE Bus;
 ```
 
 ```bash
-use evalsql;
+use Bus;
 ```
 
-## 5. Retournez sur visual studio, faite un clic droit sur le fichier schema.sql, sélectionnez "Copy path" puis retournez sur le terminal et effectuez cette commande :
+## 5. Après cette étape lancer les fichierschema.sql, data.sql et queries.sql dans le terminal mysql
 
 ```bash
-source "Collez le path que vous avez copié dans VsCode"
+source "path du fichier schema.sql"
 ```
 
-## 6. Effectuez la même étape mais pour le fichier data.sql
+
 
 ```bash
-source "Collez le path que vous avez copié dans VsCode"
+source "path du fichier data.sql"
 ```
 
-## 6. Effectuez la même étape mais pour le fichier queries.sql et admirez le résultat !
+
 
 ```bash
-source "Collez le path que vous avez copié dans VsCode"
+source "path du fichier queries.sql"
 ```
 
 
@@ -66,7 +66,7 @@ MCD avec toutes les tables et les relations
 
 <img src="./mcd/Bus.png">
 
-Dictionnaire des données en markdown :
+Dictionnaire des données:
 
 ```bash
 | Libellé             | Code                | Type   | Longueur | Obligatoire | Règle de calcul | Contrainte d'intégrité | Commentaire                       |
